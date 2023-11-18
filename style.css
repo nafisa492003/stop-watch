@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg,#000000,#685959);
+}
+.container{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(255, 0, 0, 0.407);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    box-shadow: 38px 38px 216px 35px rgba(255, 0, 0, 0.719);
+-webkit-box-shadow: 38px 38px 216px 35px rgba(112, 36, 36, 0.719);
+-moz-box-shadow: 38px 38px 216px 35px rgba(83, 4, 4, 0.719);
+}
+.circle{
+    font-size: 22px;
+    font-weight: 600;
+    color: #f0ffff;
+}
+.btn-groups button{
+    font-size: 35px;
+   margin-left: 15px;
+   
+}
